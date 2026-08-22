@@ -1,9 +1,9 @@
-# Verification & Analysis — VHDL Pong
+# Verification & Analysis - VHDL Pong
 
 Structural verification (schematics), simulation results, and post-implementation resource/power analysis for the project.
 For the source itself, see the [Source Code Breakdown](./source_code.md).
 
-## Structural Verification — Schematics
+## Structural Verification - Schematics
 
 Used during development to trace signal connectivity between modules and confirm the implemented hierarchy matched the intended design.
 
@@ -26,9 +26,10 @@ Comparing this against the two diagrams above confirmed the synthesiser preserve
 ![RTL schematic partial](./images/RTL_Skem_Partial.png)
 ---
 
-## Implementation — Device Floorplan
+## Implementation - Fabric Routing
 
-Physical placement of the design on the Artix-7 100T fabric after place & route. Each cyan cell is a utilized LUT, register, or other logic primitive, positioned in its assigned location on the die:
+Physical placement of the design on the Artix-7 100T fabric after place & route. 
+Each cyan cell is a utilized LUT, register, or other logic primitive, positioned in its assigned location on the die:
 
 ---
 ![Implemented design floorplan](./images/Implemented_design.png)
