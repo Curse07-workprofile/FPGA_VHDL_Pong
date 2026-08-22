@@ -17,6 +17,10 @@
 
 - [uart_module.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/uart_module.vhd) - wraps the receive and transmit submodules below into a single interface for modularity
 
+---
+![UART diagram](./images/UART_module.png)
+---
+
 ### Internal submodules
 
 - [receive_uart.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/receive_uart.vhd) - bit-level UART receiver FSM, with a two-stage synchroniser on the asynchronous RXD line to prevent metastability (Very Cool :)
@@ -24,12 +28,20 @@
 
 ## Modification Module (Parameter Adjustment)
 
+---
+![modification diagram](./images/modification_module.png)
+---
+
 - [modification_module.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/modification_module.vhd) - owns ball-speed and paddle-size values and the Moore FSM for adjusting them, passes them to application module to use (waiting -> ball speed -> paddle size)
 - [button_inputs.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/button_inputs.vhd) - converts raw button levels into single-cycle pulses per button, so a held press registers once rather than repeating every clock cycle
 
 ## Game Module
 
 - [game_module.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/game_module.vhd) - top-level game FSM (waiting / playing / game over); coordinates the three sub-modules below
+
+---
+![game diagram](./images/game_module.png)
+---
 
 ### Internal submodules
 
