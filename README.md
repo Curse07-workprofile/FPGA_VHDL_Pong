@@ -19,9 +19,9 @@ There was also plenty of learning about the real-world applications of this tech
 
 ## Resources
 
-- [Game README](./Game.md) - controls, game states, and full gameplay instructions
-- [Verification & Analysis]() - schematics, simulation, and post-implementation resource/power analysis
-- [Source Code Breakdown]() - direct navigation to every VHDL source file aswell as brief individual descriptions
+- [Game README](./Game.md)       - controls, game states, and full gameplay instructions
+- [Verification & Analysis]()    - schematics, simulation, and post-implementation resource/power analysis
+- [Source Code Breakdown]()      - direct navigation to every VHDL source file aswell as brief individual descriptions
 
 ## Features
 
@@ -45,7 +45,7 @@ The firmware is structured as a layered, modular application:
 ## Skills Demonstrated
 
 - Custom UART protocol design at the bit level (RX + TX), including baud-rate timing and safe synchronisation of an asynchronous input
-- Moore FSM decomposition across multiple cooperating state machines — game flow, parameter modification, UART RX/TX, and screen rendering; each scoped to a single concern
+- Moore FSM decomposition across multiple cooperating state machines: game flow, parameter modification, UART RX/TX, and screen rendering; each scoped to a single concern
 - Timing-critical logic: deriving variable real-time behaviour (adjustable ball speed) from a fixed clock via runtime-computed counter thresholds
 - Use of VHDL procedures and functions for reuse and readability; shared serve/reset routines, ANSI command-building functions, binary-to-ASCII conversion
 - Debounce / single-pulse edge detection for reliable button input handling
@@ -54,7 +54,8 @@ The firmware is structured as a layered, modular application:
 
 ## Reflections & Future Direction
 
-This project, and the course it was part of, demystified computer logic down to the individual MOSFET level (CMOS and its implementation) for me. Building on this, future goals of mine include deepening my understanding of **Application Specific Integrated Circuits** (ASICs) and embedded systems by designing my own CPU on an FPGA chip, and making fuller use of available hardware resources; this project only lightly touches the total available compute of this chip.
+This project, and the course it was part of, demystified computer logic down to the individual MOSFET level (CMOS and its implementation) for me. 
+Building on this, future goals of mine include deepening my understanding of **Application Specific Integrated Circuits** (ASICs) and embedded systems by designing my own CPU on an FPGA chip, and making fuller use of available hardware resources; this project again only lightly touches the total available compute of this chip.
 
 A few smaller optimisations are flagged directly in the source for future revisits; for example, the current binary-to-ASCII conversion in the score/parameter display uses straightforward division rather than a hardware-efficient double dabble (shift-add-3) implementation, which would trade a small amount of added complexity for reduced LUT usage. 
 I really truely enjoyed this course and this project. Even with the time we had to do this I still felt it was cut too short.
