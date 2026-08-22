@@ -1,6 +1,12 @@
-## Project Description
+# VHDL Pong Game - FPGA Project
 
 In this project the aim was to become familular with FPGA circuitry and flow logic.
+This Project used the Nexys A7 100T FPGA board using the Artix-7 Chip 
+
+---
+![NexysA7](./images/NexysA7.jpg)
+---
+
 This involved gaining experience using VHDL and the Vivado software aswell as learning the general real world applications of the technology.
 This project shows the creative implementation of the simple pong game.
 
@@ -12,7 +18,8 @@ Some of involved features that were developed:
 - Use of the double dabble algorithm to convert a number value to the ASCII representation 
 - Use of ANSI escape sequences and encoding
 
-From the development of these features developed the following skills:
+## Skills Demonstrated
+
 - A good understanding of VHDL syntax and varible typing
 - A greater and intuitive ability to read and convert binary, hexidecimal, and ASCII characters
 - Conceptual understanding around concurrent and synchronous sequential flow logic
@@ -23,3 +30,6 @@ From the development of these features developed the following skills:
 Personally I enjoyed this project and this course a lot as it demistified down to the individual MOSFET level (with CMOS and their implementation) on how computer logic works.
 I want to in the future refine my understanding of ASICs and Embedded systems further by implementing my own design of CPU on an FPGA chip similar to this.
 Aswell as attempt to more fully utilize the avalible hardware as this project barely puts a scratch in the avaliable compute of this chip.
+
+---
+*Developed as a part of a university project.*
