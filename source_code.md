@@ -1,5 +1,9 @@
 # Source Code — VHDL Pong
 
+---
+![Partial block diagram](./images/Partial_Pong_Diagram.png)
+---
+
 ## Top Level
 
 - [pong_top.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/pong_top.vhd) - top-level entity; instantiates, integrates and/or wires together the UART, modification, and game modules
