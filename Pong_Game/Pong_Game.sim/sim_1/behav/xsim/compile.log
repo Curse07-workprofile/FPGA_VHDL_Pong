@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sources_1/new/game_mechanics.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'game_mechanics'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sources_1/new/message_prep.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'message_prep'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sources_1/new/game_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'game_module'

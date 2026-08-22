@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Apr 23 16:24:19 2026
+# Process ID         : 18536
+# Current directory  : C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent22592 C:\Users\jim32\OneDrive\Desktop\VHDL\ThursdayGroupG\Pong_Game\Pong_Game.xpr
+# Log file           : C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/vivado.log
+# Journal file       : C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game\vivado.jou
+# Running On         : Curse-Legion
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 4800H with Radeon Graphics         
+# CPU Frequency      : 2894 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16505 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25095 MB
+# Available Virtual  : 3193 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.xpr
+update_compile_order -fileset sources_1
+synth_design -top pong_top -part xc7a100tcsg324-1 -lint 
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.runs/impl_1/pong_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager

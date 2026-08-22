@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.sim/sim_1/synth/timing/xsim/pong_top_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module button_inputs
+INFO: [VRFC 10-311] analyzing module display_output
+INFO: [VRFC 10-311] analyzing module game_mechanics
+INFO: [VRFC 10-311] analyzing module game_module
+INFO: [VRFC 10-311] analyzing module message_prep
+INFO: [VRFC 10-311] analyzing module modification_module
+INFO: [VRFC 10-311] analyzing module pong_top
+INFO: [VRFC 10-311] analyzing module receive_uart
+INFO: [VRFC 10-311] analyzing module transmit_uart
+INFO: [VRFC 10-311] analyzing module uart_module
+INFO: [VRFC 10-311] analyzing module glbl

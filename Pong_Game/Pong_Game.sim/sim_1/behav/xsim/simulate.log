@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Note: === TEST 1: title screen UART output (25 packets) ===
+Time: 100 ns  Iteration: 0  Process: /pong_top_tb/p_Simulate  File: C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd
+Note:   PASS: all 25 packets matched
+Time: 21724135 ns  Iteration: 0  Process: /pong_top_tb/p_Simulate  File: C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd
+Note: === All tests complete ===
+Time: 21724135 ns  Iteration: 0  Process: /pong_top_tb/p_Simulate  File: C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd

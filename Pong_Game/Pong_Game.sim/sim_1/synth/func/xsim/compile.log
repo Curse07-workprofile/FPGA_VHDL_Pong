@@ -1,0 +1,13 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.sim/sim_1/synth/func/xsim/pong_top_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'button_inputs'
+INFO: [VRFC 10-3107] analyzing entity 'display_output'
+INFO: [VRFC 10-3107] analyzing entity 'game_mechanics'
+INFO: [VRFC 10-3107] analyzing entity 'message_prep'
+INFO: [VRFC 10-3107] analyzing entity 'receive_uart'
+INFO: [VRFC 10-3107] analyzing entity 'transmit_uart'
+INFO: [VRFC 10-3107] analyzing entity 'game_module'
+INFO: [VRFC 10-3107] analyzing entity 'modification_module'
+INFO: [VRFC 10-3107] analyzing entity 'uart_module'
+INFO: [VRFC 10-3107] analyzing entity 'pong_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jim32/OneDrive/Desktop/VHDL/ThursdayGroupG/Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pong_top_tb'
