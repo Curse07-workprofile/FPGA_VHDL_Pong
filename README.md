@@ -21,7 +21,7 @@ There was also plenty of learning about the real-world applications of this tech
 
 - [Game README](./Game.md) - controls, game states, and full gameplay instructions
 - [Verification & Analysis]() - schematics, simulation, and post-implementation resource/power analysis
-- [Source Code Breakdown]() - direct navigation to every VHDL source file aswell as brief individual descriptions
+- [Source Code Breakdown](./source_code.md) - direct navigation to every VHDL source file aswell as brief individual descriptions
 
 ## Features
 
