@@ -35,7 +35,7 @@
 
 ## Testbench
 
-- [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd) - testbench that will **report** errors; made for the top-level design, see [Verification & Analysis]() for full breakdown
+- [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd) - testbench that will **report** errors; made for the top-level design, see [Verification & Analysis](./Design_verification.md) for full breakdown
 
 ## Constraints File
 
