@@ -132,6 +132,7 @@ right again toggles back to ball speed. Here the status LED's both show orange.
 
 ## Potential future improvements
 
+- Expanded testbench infrastructure with more use and implementation
 - Adjustable vertical ball speed ratio
 - Paddle movement and collision interactions affecting the ball's vertical speed
 - Increased variety in the serve pattern algorithm
