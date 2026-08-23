@@ -20,8 +20,7 @@ Two of these slices then make up the **Configurable Logic Blocks** that are arra
 This is what an FPGA is. 
 Use of these reconfigurable LUTs allow for functional malleability, and then the seperate block like structure allows for natural concurrency.
 This project involved only simple applications of this increadible functional ability.
-This did however, involve hands-on experience with **VHDL** as our "favourite" STRONGLY typed **Hardware Description Language** and the use of the **Vivado** toolchain. 
-This was a tough learning experiance but I personally am quite proud of the results and did enjoy myself in the progress I made in learning the skills I did.
+This did however, involve hands-on experience with **VHDL** as our "favourite" STRONGLY typed **Hardware Description Language** and the use of the **Vivado** toolchain.
 There was also plenty of learning about the real-world applications of this technology, which then culminated in a creative implementation of the classic Pong game shown here in this Project.
 
 ## Resources
