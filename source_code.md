@@ -51,11 +51,11 @@
 
 ## Testbench
 
-- [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd) - testbench that will **report** errors; made for the top-level design, see [Verification & Analysis](./Design_verification.md) for full breakdown
+- [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd) - testbench that will **report** errors in title screen communications; made for the top-level design, see [Verification & Analysis](./Design_verification.md) for full breakdown
 
 ## Constraints File
 
 - [pong_constraints_a7100T.xdc](./Pong_Game/Pong_Game.srcs/constrs_1/new/pong_constraints_a7100T.xdc) - Sets hardware names and configures the correct I/O functionality
 
 ---
-[← Back to project README](./README.md)
+[<- Back to project README](./README.md)
