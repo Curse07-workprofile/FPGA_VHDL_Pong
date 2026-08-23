@@ -7,11 +7,11 @@ In this case an AMD/Xilinx **Artix-7** chip was avalible in the **Nexys A7-100T*
 ![NexysA7](./images/NexysA7.jpg)
 ---
 
-This had far more compute than was ever going to be needed in this project; featuring a huge 99,000 logic cells or 15,850 logic slices.
+This chip had far more compute than was ever going to be needed in this project; featuring a huge 99,000 logic cells or 15,850 logic slices.
 These logic slices contain 4 6-input **Look Up Tables** of preconfigured/routed logic, and also 8 flip-flops for sequential logic. 
 Two of these slices then make up the **Configurable Logic Blocks** that are arranged in a grid like structure seperated by the sea of interconnects.
 This is what an FPGA is. 
-Use of these reconfigurable LUTs allow for functional malibility, and then the seperate block like structure allows for natural concurrency.
+Use of these reconfigurable LUTs allow for functional malleability, and then the seperate block like structure allows for natural concurrency.
 This project involved only simple applications of this increadible functional ability.
 This did however, involve hands-on experience with **VHDL** as our "favourite" STRONGLY typed **Hardware Description Language** and the use of the **Vivado** toolchain. 
 This was a tough learning experiance but I personally am quite proud of the results and did enjoy myself in the progress I made in learning the skills I have.
