@@ -39,8 +39,8 @@ The used logic clusters into a small, contiguous region rather than being spread
 
 ## Testbench & Simulation
 
----
-The top-level design (pong_top) is verified with a self-checking testbench: [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd).
+The top-level design (pong_top) is verified with a self-checking testbench; see code here: [pong_top_tb.vhd](./Pong_Game/Pong_Game.srcs/sim_1/new/pong_top_tb.vhd).
+
 ---
 
 It instantiates the full design as the unit under test, generates a 100 MHz clock, and drives reset before running a UART verification test:
