@@ -135,6 +135,7 @@ right again toggles back to ball speed. Here the status LED's both show orange.
 - Adjustable vertical ball speed ratio
 - Paddle movement and collision interactions affecting the ball's vertical speed
 - Increased variety in the serve pattern algorithm
+- Move from terminal to VGA output (for real graphic interfacing)
 
 ---
-[← Back to project README](./README.md)
+[<- Back to project README](./README.md)
