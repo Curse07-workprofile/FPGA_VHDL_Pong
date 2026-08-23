@@ -66,7 +66,6 @@ begin
         
         p_Simulate : process
             
-            -- AI generated code from this point
             variable v_rx_byte : std_logic_vector(7 downto 0);
             variable v_rx_word : std_logic_vector(79 downto 0);
             variable v_pass    : boolean;
@@ -129,7 +128,6 @@ begin
                     end loop;
                     v_pass := false;
                 end if;
-                -- AI generated to this point (With parts of my code inbetween)
             end loop;
     
             if v_pass then
@@ -141,7 +139,7 @@ begin
             end if;
             
             -- Other tests: 
-                -- Test LED display for state changes
+                -- Test LED display for state changes (later)
             
              report "=== All tests complete ===";
             w_sim_done <= '1';
