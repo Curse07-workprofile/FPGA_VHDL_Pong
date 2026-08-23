@@ -28,12 +28,12 @@
 
 ## Modification Module (Parameter Adjustment)
 
+- [modification_module.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/modification_module.vhd) - owns ball-speed and paddle-size values and the Moore FSM for adjusting them, passes them to application module to use (waiting -> ball speed -> paddle size)
+- [button_inputs.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/button_inputs.vhd) - converts raw button levels into single-cycle pulses per button, so a held press registers once rather than repeating every clock cycle
+
 ---
 ![modification diagram](./images/modification_module.png)
 ---
-
-- [modification_module.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/modification_module.vhd) - owns ball-speed and paddle-size values and the Moore FSM for adjusting them, passes them to application module to use (waiting -> ball speed -> paddle size)
-- [button_inputs.vhd](./Pong_Game/Pong_Game.srcs/sources_1/new/button_inputs.vhd) - converts raw button levels into single-cycle pulses per button, so a held press registers once rather than repeating every clock cycle
 
 ## Game Module
 
